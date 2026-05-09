@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 # Streamlit Cloud でも動く日本語フォント設定
-plt.rcParams['font.family'] = ['IPAexGothic', 'Yu Gothic', 'Noto Sans CJK JP', 'sans-serif']
-#plt.rcParams['font.family'] = 'MS Gothic'
+plt.rcParams["font.family"] = ['IPAexGothic', 'Noto Sans CJK JP', 'TakaoGothic', 'sans-serif']
 
 
 st.title("正規分布の確率計算アプリ")
