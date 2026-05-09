@@ -112,9 +112,9 @@ if a is not None:
 if b is not None:
     ax.axvline(b, color="red", linestyle="--", label=f"b = {b}")
 
-ax.set_title("正規分布と確率区間の可視化")
+ax.set_title("Kakuritukukan")
 ax.set_xlabel("X")
-ax.set_ylabel("密度")
+ax.set_ylabel("Mitudo")
 ax.legend()
 ax.grid(True)
 
